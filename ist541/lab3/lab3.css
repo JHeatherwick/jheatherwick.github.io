@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color: lightblue;
+	font-family: "Helvetica Neue","sans-serif"
+	}
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  steelblue; 
+	color:  white; 
+}
+a:hover {
+	font-size:125%;
+	background-color: darkgray; 
+	color: white; 
+}
+
+
+
+
