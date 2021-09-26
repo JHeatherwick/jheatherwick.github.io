@@ -2,7 +2,7 @@
 /* CSS Document */
 body {
 	text-align: center;
-	background-color: lightblue;  
+	background-color: paleturquoise;  
 }
 a {
 	padding: 15px;
@@ -10,9 +10,10 @@ margin: 3px;
 	font-size: 125%;
 	background-color:  orange; 
 	color:  white; 
+}
 a:hover {
-	font-size:200%;
-	background-color: palegoldenrod; 
+	font-size:150%;
+	background-color: darkturquoise; 
 	color: white; 
 }
 
