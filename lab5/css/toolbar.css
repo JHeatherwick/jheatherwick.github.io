@@ -20,5 +20,20 @@ border: #E15398 medium solid;
 display: none;
 border: #E15398 medium solid;
 }
+ #icon1 {
+border: #E15398 medium solid;
+}
+ 
+ #icon2 {
+display: none;
+border: #E15398 medium solid;
+}
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  orange; 
+	color:  white; 
+}
 
 

@@ -2,16 +2,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>lab5</title>
-<link href="index.html.css" rel="stylesheet" type="text/css">
+<title>Page2</title>
+	<link href="page2.html" rel="stylesheet" type="text/css">
 	<link href="css/toolbar.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
+	<script>
 $( function(){
 $("#icon1").click( function(){
 $("#icon2").css("display","inline");
-	$("#icon1").css("display","none");
-	$("#answer").html("<h2>You would click on the star icon.</h2>");
+    $("#icon1").css("display","none");
+    $("#answer").html("<h2>You would click on the star image.</h2>");
 });
 });
 </script>
@@ -19,18 +19,21 @@ $("#icon2").css("display","inline");
 </head>
 
 <body>
-		  <div id="wrapper">
-		  <h1> Where do you click on the toolbar to add an icon to your Mural canvas? </h1>
-	<h3 id="hint">Hint: Click the image below to find out!</h3>
+	<div id="wrapper">
  
-<img id="text1"   src="img/text1.png"   />
+<h1>Where would you click to add an icon to the Mural canvas?</h1>
  
-<img id="text2" src="img/text2.png" />
+<h3 id="hint">Hint: Click on the image below to find out!</h3>
  
-           <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+<img id="icon1"   src="img/icon1.png"   />
+ 
+<img id="icon2" src="img/icon2.png" />
+ 
+<div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+		<br/>
+			  <br/>
 			  
-			 
-
+<a href="page3.html"> Next Question </a>
  
 </div> <!-- closing  “wrapper” -->
 
