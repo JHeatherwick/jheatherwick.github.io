@@ -33,11 +33,6 @@ border: #E15398 medium solid;
 cursor: pointer;
 }
 
-a:hover {
-	font-size:125%;
-	background-color: darkgray; 
-	color: white; 
-}
 
 a {
 	padding: 15px;
@@ -45,5 +40,10 @@ margin: 3px;
 	font-size: 125%;
 	background-color:  orange; 
 	color:  white; 
+}
+a:hover {
+	font-size:125%;
+	background-color: darkgray; 
+	color: white; 
 }
 
