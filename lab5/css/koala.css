@@ -14,4 +14,7 @@ border: black 5px solid;
 display: none;
 border: black 5px solid;
 }
+.choices {
+cursor: pointer;
+}
 
