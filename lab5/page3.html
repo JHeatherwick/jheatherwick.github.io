@@ -5,10 +5,27 @@
 <title>page3</title>
 <link href="page3.html" rel="stylesheet" type="text/css">
 	<link href="css/toolbar.css" rel="stylesheet" type="text/css">
-	.choices {
-cursor: pointer;
-}
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+ 
+$(function(){
+	$("#option1").click( function(){
+         $("#feedback").html("<h2 style='color:white'> Correct! You can choose duplicate from the dropdown menu. </h2>");
+      $("#option2,option3").click( function(){
+                 $("#feedback").html("<h2 style='color:white'> Correct! You can use quick keys on your computer to duplicate.</h2>");
+              $("#option4").click( function(){
+                 $("#feedback").html("<h2 style='color:white'> Incorrect. The space bar is a shortcut used to easily move around the canvas.</h2>");
+                 $("#koala_eating").css("display","inline");
+});
+   
+});
+           
+});
+
+ 
+});
+
+</script>
 
 </head>
 
@@ -23,7 +40,6 @@ cursor: pointer;
 <h2 id="option4" class="choices"> Press down the spacebar. </h2>
  
 <div id="feedback"></div>
-<img id="koala_eating" src="img/koala_eating.jpg" />
 </div>
 </body>
 </html>
