@@ -1,5 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
+#body {
+	background-color:darkturquoise;   /* background color */
+	color: #444;          /* text color for the page */
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
 #wrapper {
 width: 900px;
 margin: 0 auto;
@@ -14,4 +21,5 @@ border: black 5px solid;
 display: none;
 border: black 5px solid;
 }
+
 
