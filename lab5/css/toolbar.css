@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #text1 {
+border: black 5px solid;
+}
+ 
+ #text2 {
+display: none;
+border: black 5px solid;
+}
+
