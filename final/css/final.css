@@ -11,6 +11,8 @@ h2 {
 h3 {  
    text-align:center;   /* centers h1 and h2 content */
    color:darkslategrey;       /* exploring new text color */
+   position:fixed;
+  
 }
 
 a {
