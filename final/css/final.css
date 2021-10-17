@@ -4,6 +4,15 @@ body {
 	text-align: center;
 	background-color: paleturquoise;  
 }
+h2 {  
+   text-align:center;   /* centers h1 and h2 content */
+   color:darkslategrey;       /* exploring new text color */
+}
+h3 {  
+   text-align:center;   /* centers h1 and h2 content */
+   color:darkslategrey;       /* exploring new text color */
+}
+
 a {
 	padding: 15px;
 margin: 3px;
