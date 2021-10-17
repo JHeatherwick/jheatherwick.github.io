@@ -11,10 +11,8 @@
 $(function(){
 	$("#option1").click( function(){
          $("#feedback").html("<h2 style='color:white'> Correct! You can choose duplicate from the dropdown menu. </h2>");
-      $("#option2").click( function(){
-                 $("#feedback").html("<h2 style='color:white'> Correct! You can use quick keys on your Mac to duplicate.</h2>");
-		$("#option3").click( function(){
-                 $("#feedback").html("<h2 style='color:white'> Correct! You can use quick keys on your PC to duplicate.</h2>");
+     $("#option2,option3").click( function(){
+         $("#feedback").html("<h2 style='color:white'> Correct! You can use quick keys on your computer to duplicate.</h2>");
         $("#option4").click( function(){
                  $("#feedback").html("<h2 style='color:white'> Incorrect. The space bar is a shortcut used to easily move around the canvas.</h2>");
                  $("#koala_eating").css("display","inline");
@@ -34,11 +32,10 @@ $(function(){
 <body>
 <div id="wrapper">
 <h1>How can you duplicate an element on the Mural canvas?</h1>
-<h3>Click on each of the following choices to reveal the correct answer.</h3>
+<h3>Click on each of the following choices to reveal the correct answers.</h3>
  
 <h2 id="option1" class="choices"> Right click and select duplicate. </h2>
-<h2 id="option2" class="choices"> Mac Users: Command + C = Copy then Command + V = Paste. </h2>
-<h2 id="option3" class="choices"> PC Users: Control + C = Copy then Control + V = Paste.</h2>
+<h2 id="option2" class="choices"> Click Command + C = Copy then Command + V = Paste. </h2>
 <h2 id="option4" class="choices"> Press down the spacebar. </h2>
  
 <div id="feedback"></div>
